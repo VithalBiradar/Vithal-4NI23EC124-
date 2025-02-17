@@ -57,6 +57,31 @@ Id=27.08uA
 vout=1.772v
 width=1.08um
 DC Operating point : (1.772,27.08uA) is obtained for 1.08um Width and 180nm Length.
+# transient analysis
+![image](https://github.com/user-attachments/assets/efdcb483-43cb-4f48-b903-8659b34b1a95)
+Vout=1.772v
+There is 180 degree phase shift between input and output or the DC level shift
+# Ac analysis
+![image](https://github.com/user-attachments/assets/3cf65998-4b65-46bb-8cca-79b2e141505a)
+
+# Inference:
+Current is directly Propotional to the Width of the Mosfet and the current changes with the change in width.
+
+Mosfet saturation ensures the mosfet works as an amplifier and produces the desired negative gain as per the equation Av=-gm*Rd.
+
+Q point stability is attained in saturation region thus helping in attaining linear amplification .
+
+The Mosfet gain is increased in mid band frequency range (small signal analysis).
+
+The Transient analysis reveleas the response of the circuit to time domain ssignal and determines how quickly the circuit responds to variation.
+This is essential in high speed applications.
+
+6.AC Analysis helps in designing circuits with desired gain and helps in impedance matching.
+Also helps in understanding the frequency response and small signal behaviour of the circuit.
+
+Circuit 2:
+
+
 
 
 
