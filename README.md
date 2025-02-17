@@ -31,12 +31,34 @@ This to done to analyse the response of the circuit to time varying signals.
 This is helpful to determine the signl noise, DC shift between the input and the output. This plays key role in detecting issues like phase distortion.This is essential for high speed applications like communication systems.
 
 # Procedure
-1.Create a new folder and name it as project file.Save the LT spice file in this folder.
+* Connect the drain of the NMOS transistor (M1) to the 1kΩ resistor (R1).
+   * Connect the other end of R1 to the V1 (1.8V DC power supply).
+   * Connect the source of M1 to ground.
+   * Connect the gate of M1 to a variable DC voltage source (V2).
+   * Set up a multimeter or oscilloscope to measure the drain voltage (V_D).
+   *DC Analysis: Set up the circuit as per the circuit diagram with proper connections ensuring valid circuit for further analysis. Apply the DC voltage of Vdd=1.8V and Vgs = 0.9 V . Go to simulate option in the tab and edit simulation command, click on DC analysis and press ok.(.op) Click on Run in the tab menu to get the DC operating point ,Vout and Id.
 
-2.Name the mosfet as CMOSN and the length as 180nm and width as 1.08um initially.
-
-4.DC Analysis: Set up the circuit as per the circuit diagram with proper connections ensuring valid circuit for further analysis. Apply the DC voltage of Vdd=1.8V and Vgs = 0.9 V . Go to simulate option in the tab and edit simulation command, click on DC analysis and press ok.(.op) Click on Run in the tab menu to get the DC operating point ,Vout and Id.
 ![image](https://github.com/user-attachments/assets/38f4d9fc-75c2-4ca5-9cbc-2d768321fdad)
+# calculation
+CALCULATION:
+Power = 50uW
+Loop Equation: Vdd=Vds+Id*Rd
+P=I*V (Id=27.08uA , Vdd=1.8V)
+clearly Vds=Vout; Vds>=Vgs-Vth
+Rd (upon calculation) =10.33Kohm
+Widhth=0.3um(Vary width to get the current)
+Vds=1.772V
+gain=-20dB(from AC analysis)
+Q point is (1.772V,27.08uA)
+
+# Result
+![image](https://github.com/user-attachments/assets/2df09210-0a66-4708-be89-7ffc049790be)
+Id=27.08uA
+vout=1.772v
+width=1.08um
+DC Operating point : (1.772,27.08uA) is obtained for 1.08um Width and 180nm Length.
+
+
 
 
 
