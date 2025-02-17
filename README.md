@@ -18,5 +18,8 @@ condition where Vgs>Vth,Vgd<Vth and Vds>=Vov for an N channel mosfet.In the comm
 There is very high input impedence that is nearly equal to Ig=0 idealy infinite.
 The drain current
 Id=1/2kn*Vov*Vov;Vov=Vgs-Vt and Kn=UnCoxW/L
-This is the eqation foe the drain current in the saturation region
-v
+This is the eqation foe the drain current in the saturation region.
+# Procedure
+
+
+
