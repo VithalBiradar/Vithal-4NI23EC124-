@@ -25,10 +25,13 @@ Finding Node Voltages (using Kirchhoff’s Voltage Law - KVL)
 Calculating Branch Currents (using Kirchhoff’s Current Law - KCL)
 Determining the Operating Region of Active Components (like MOSFETs, BJTs, and Diodes)
 It helps in understanding how a circuit behaves under constant (non-time-varying) conditions, which is useful for biasing and setting up initial conditions before applying AC signals.
-# AC analysis
+# transient analysis
 This to done to analyse the response of the circuit to time varying signals.
 
 This is helpful to determine the signl noise, DC shift between the input and the output. This plays key role in detecting issues like phase distortion.This is essential for high speed applications like communication systems.
+# AC analysis
+This is nothing but the small signal analysis of the circuit.This is done to determine the Gain of the amplifier circuit .
+This also helps to analyze the Frequency Reponse of the amplifier circuit. the gain is given by Av = -gm Rd
 
 # Procedure
 * Connect the drain of the NMOS transistor (M1) to the 1kΩ resistor (R1).
@@ -40,7 +43,6 @@ This is helpful to determine the signl noise, DC shift between the input and the
 
 ![image](https://github.com/user-attachments/assets/38f4d9fc-75c2-4ca5-9cbc-2d768321fdad)
 # calculation
-CALCULATION:
 Power = 50uW
 Loop Equation: Vdd=Vds+Id*Rd
 P=I*V (Id=27.08uA , Vdd=1.8V)
@@ -66,20 +68,76 @@ There is 180 degree phase shift between input and output or the DC level shift
 
 # Inference:
 Current is directly Propotional to the Width of the Mosfet and the current changes with the change in width.
-
 Mosfet saturation ensures the mosfet works as an amplifier and produces the desired negative gain as per the equation Av=-gm*Rd.
-
 Q point stability is attained in saturation region thus helping in attaining linear amplification .
-
 The Mosfet gain is increased in mid band frequency range (small signal analysis).
-
 The Transient analysis reveleas the response of the circuit to time domain ssignal and determines how quickly the circuit responds to variation.
 This is essential in high speed applications.
-
 6.AC Analysis helps in designing circuits with desired gain and helps in impedance matching.
 Also helps in understanding the frequency response and small signal behaviour of the circuit.
 
 Circuit 2:
+# Theory
+This is done ensure the mosfet operates in saturation and to calculate the DC operationg point of the transistor. This prevents signal noise .
+This helps in the determination of the biasing resistors.
+This helps in getting a correct operating point despite the fluctuation in the other parameters.
+
+# dc analysis
+DC Analysis (Direct Current Analysis) is a method used to determine the steady-state behavior of an electrical circuit when powered by constant (DC) voltage or current sources
+Finding Node Voltages (using Kirchhoff’s Voltage Law - KVL)
+Calculating Branch Currents (using Kirchhoff’s Current Law - KCL)
+Determining the Operating Region of Active Components (like MOSFETs, BJTs, and Diodes)
+It helps in understanding how a circuit behaves under constant (non-time-varying) conditions, which is useful for biasing and setting up initial conditions before applying AC signals.
+# transient analysis
+This to done to analyse the response of the circuit to time varying signals.
+
+This is helpful to determine the signl noise, DC shift between the input and the output. This plays key role in detecting issues like phase distortion.This is essential for high speed applications like communication systems.
+# AC analysis
+This is nothing but the small signal analysis of the circuit.This is done to determine the Gain of the amplifier circuit .
+This also helps to analyze the Frequency Reponse of the amplifier circuit. the gain is given by Av = -gm Rd
+
+# Procedure: 
+1. Open LTspice and Create a New Schematicand Launch LTspice.Create a new schematic by selecting File → New Schematic.
+2. Place Components Voltage Sources (V1 & V2) and Select Voltage and place two sources.Set V1 as a DC source with 1.8V.Set V2 as an AC + sine source: SINE(0.7 50m 1K) AC 1.
+Transistors (PMOS & NMOS),Add PMOS and NMOS transistors from the component library.Connect them in a CMOS inverter configuration:M2 (PMOS): Source to V1 (1.8V), Drain to Vout.
+M1 (NMOS): Drain to Vout, Source to Ground.Gate of both transistors connected to V2.
+3. Define the MOSFET Models
+AC Analysis:.ac dec 20 0.1 1T.This performs an AC sweep from 0.1Hz to 1THz in 20 points per decade.
+Transient Analysis:.tran 3m,Runs a transient simulation for 3ms.
+4.Observe how the circuit responds in time domain (transient).Check the gain and phase shift (AC analysis).
+# CIRCUIT DIAGRAM
+![image](https://github.com/user-attachments/assets/68bca057-c33b-4e5e-9352-1b6f6b9bf32b)
+# calculation
+
+# result
+![image](https://github.com/user-attachments/assets/e41dae36-1f96-4bfd-80f8-890a1efd3fb3)
+DC Operating Point =( 0.9V ,27uA)
+# Transient Analysis:
+![image](https://github.com/user-attachments/assets/cbf45a5d-6779-48bd-8aaf-270ce9af4cc1)
+There is 180 degree phase shift between input and output and a DC level phase shift observed.
+Vout=0.9V and the width =1.08um.
+# AC Analysis:
+![image](https://github.com/user-attachments/assets/d3d5cf60-603f-4086-9882-9f11252055d0)
+# inference
+# Inference:
+Current is directly Propotional to the Width of the Mosfet and the current changes with the change in width.
+Mosfet saturation ensures the mosfet works as an amplifier and produces the desired negative gain as per the equation Av=-gm*Rd.
+Q point stability is attained in saturation region thus helping in attaining linear amplification .
+The Mosfet gain is increased in mid band frequency range (small signal analysis).
+The Transient analysis reveleas the response of the circuit to time domain ssignal and determines how quickly the circuit responds to variation.
+This is essential in high speed applications.
+6.AC Analysis helps in designing circuits with desired gain and helps in impedance matching.
+Also helps in understanding the frequency response and small signal behaviour of the circuit.
+
+
+
+
+
+
+
+
+
+
 
 
 
