@@ -65,15 +65,14 @@ Vout=1.772v
 There is 180 degree phase shift between input and output or the DC level shift
 # Ac analysis
 ![image](https://github.com/user-attachments/assets/3cf65998-4b65-46bb-8cca-79b2e141505a)
-
-# Inference:
-Current is directly Propotional to the Width of the Mosfet and the current changes with the change in width.
-Mosfet saturation ensures the mosfet works as an amplifier and produces the desired negative gain as per the equation Av=-gm*Rd.
-Q point stability is attained in saturation region thus helping in attaining linear amplification .
-The Mosfet gain is increased in mid band frequency range (small signal analysis).
-The Transient analysis reveleas the response of the circuit to time domain ssignal and determines how quickly the circuit responds to variation.
-This is essential in high speed applications.
-6.AC Analysis helps in designing circuits with desired gain and helps in impedance matching.
+#inference
+1.Current is directly Propotional to the Width of the Mosfet and the current varies with the change in width.
+2.Mosfet saturation ensures the mosfet works as an amplifier and produces the desired negative gain as per the equation Av=-gm*Rd.
+3.Q point stability is attained in saturation region thus helping in attaining linear amplification .
+4.The Mosfet gain is increased in mid band frequency range (small signal analysis).
+5.The Transient analysis reveleas the response of the circuit to time domain ssignal and determines how quickly the circuit responds to variation.
+6.This is essential in high speed applications.
+7.AC Analysis helps in designing circuits with desired gain and helps in impedance matching.
 Also helps in understanding the frequency response and small signal behaviour of the circuit.
 
 Circuit 2:
@@ -118,17 +117,15 @@ There is 180 degree phase shift between input and output and a DC level phase sh
 Vout=0.9V and the width =1.08um.
 # AC Analysis:
 ![image](https://github.com/user-attachments/assets/d3d5cf60-603f-4086-9882-9f11252055d0)
-# inference
-# Inference:
-Current is directly Propotional to the Width of the Mosfet and the current changes with the change in width.
-Mosfet saturation ensures the mosfet works as an amplifier and produces the desired negative gain as per the equation Av=-gm*Rd.
-Q point stability is attained in saturation region thus helping in attaining linear amplification .
-The Mosfet gain is increased in mid band frequency range (small signal analysis).
-The Transient analysis reveleas the response of the circuit to time domain ssignal and determines how quickly the circuit responds to variation.
-This is essential in high speed applications.
-6.AC Analysis helps in designing circuits with desired gain and helps in impedance matching.
-Also helps in understanding the frequency response and small signal behaviour of the circuit.
 
+# Inference:
+1.The Current Id is dependent on width and hence it changes when the width changes whereas the remaining parameters remain constany.
+2.DC Analysis ensures proper biasing and hence the mosfet operates in saturation and Q point stability is attained.
+3.The Transient analysis reveleas the response of the circuit to time domain ssignal and determines how quickly the circuit responds to variation.
+This is essential in high speed applications.
+4.AC Analysis helps in designing circuits with desired gain and helps in impedance matching.
+Also helps in understanding the frequency response and small signal behaviour of the circuit.
+5.Together all the analysis helps in designing and opyimising an amplifier.
 
 
 
