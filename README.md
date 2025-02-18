@@ -4,7 +4,7 @@ Analysis of cs amplifier
 analyse the Dc analysis, transienr and AC analysis of a CS amplifier circuit and extract the variuos parameters 
 associated using LT spice.
 ## Components are required:
-Resistor(1K),voltage supply(1.8v,0.9v) Mosfet(nmos4,pmos4),and connecting wirees.
+Resistor(1K),voltage supply(1.8v,0.9v,0.6v) Mosfet(nmos4,pmos4),and connecting wirees.
 ## Theory:
 Mosfet plays a very important role in the electronics.
 why we mostly prefer Mosfet as transistor means due to its compact design,low power consumpation,simple 
@@ -66,15 +66,11 @@ There is 180 degree phase shift between input and output or the DC level shift
 # Ac analysis
 ![image](https://github.com/user-attachments/assets/3cf65998-4b65-46bb-8cca-79b2e141505a)
 #inference
-1.Current is directly Propotional to the Width of the Mosfet and the current varies with the change in width.
-2.Mosfet saturation ensures the mosfet works as an amplifier and produces the desired negative gain as per the equation Av=-gm*Rd.
-3.Q point stability is attained in saturation region thus helping in attaining linear amplification .
-4.The Mosfet gain is increased in mid band frequency range (small signal analysis).
-5.The Transient analysis reveleas the response of the circuit to time domain ssignal and determines how quickly the circuit responds to variation.
-6.This is essential in high speed applications.
-7.AC Analysis helps in designing circuits with desired gain and helps in impedance matching.
-Also helps in understanding the frequency response and small signal behaviour of the circuit.
-
+1.The mosfet will work as amplifier when it is saturation region only so by doing the DC analysis of a given circuit will get the DC operating point.
+2.In mosfet ,during the saturation region current ID Is directly proportional to the width means id will vary with w/l ratio linearly.so that our task is to find the W value by given values of length,current id ,voltage v1 and v2.
+3.From doing AC analysis ,we can find the bandwidth,gain from the given graph we can find the values.
+4.From Transient analysis,we can get the waveform of input and output waveform.we can find the voltage value.mosfet gain will increases with midband freqency range.
+5. From this we find the Q point (1,644v,2.7e^-5 A),Vout=0.5v,Vin=200mv.
 Circuit 2:
 # Theory
 This is done ensure the mosfet operates in saturation and to calculate the DC operationg point of the transistor. This prevents signal noise .
@@ -107,6 +103,10 @@ Transient Analysis:.tran 3m,Runs a transient simulation for 3ms.
 # CIRCUIT DIAGRAM
 ![image](https://github.com/user-attachments/assets/68bca057-c33b-4e5e-9352-1b6f6b9bf32b)
 # calculation
+GIVEN : power= 50um ,l=180nm,vdd= 1.8v.
+so that P=VI, I=2.7*e-5 after calculation.
+frequency 1k hz, V1=1.8V, V2=0.6V .
+W=134u(CMOSP),W=1.08u(CMOSN)
 
 # result
 ![image](https://github.com/user-attachments/assets/e41dae36-1f96-4bfd-80f8-890a1efd3fb3)
@@ -119,15 +119,11 @@ Vout=0.9V and the width =1.08um.
 ![image](https://github.com/user-attachments/assets/d3d5cf60-603f-4086-9882-9f11252055d0)
 
 # Inference:
-1.The Current Id is dependent on width and hence it changes when the width changes whereas the remaining parameters remain constany.
-2.DC Analysis ensures proper biasing and hence the mosfet operates in saturation and Q point stability is attained.
-3.The Transient analysis reveleas the response of the circuit to time domain ssignal and determines how quickly the circuit responds to variation.
-This is essential in high speed applications.
-4.AC Analysis helps in designing circuits with desired gain and helps in impedance matching.
-Also helps in understanding the frequency response and small signal behaviour of the circuit.
-5.Together all the analysis helps in designing and opyimising an amplifier.
-
-
+1.The mosfet will work as amplifier when it is saturation region only so by doing the DC analysis of a given circuit will get the DC operating point.
+2.In mosfet ,during the saturation region current ID Is directly proportional to the width means id will vary with w/l ratio linearly.so that our task is to find the W value by given values of length,current id ,voltage v1 and v2.
+3.From doing AC analysis ,we can find the bandwidth,gain from the given graph we can find the values.
+4.From Transient analysis,we can get the waveform of input and output waveform.we can find the voltage value.mosfet gain will increases with midband freqency range.
+5. From this we find the Q point (1,644v,2.7e^-5 A),Vout=0.5v,Vin=200mv.
 
 
 
