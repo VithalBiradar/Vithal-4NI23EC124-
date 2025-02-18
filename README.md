@@ -53,7 +53,7 @@ Vds=1.772V
 gain=-20dB(from AC analysis)
 Q point is (1.772V,27.08uA)
 
-# Result
+# DC analysis
 ![image](https://github.com/user-attachments/assets/2df09210-0a66-4708-be89-7ffc049790be)
 Id=27.08uA
 vout=1.772v
@@ -108,7 +108,7 @@ so that P=VI, I=2.7*e-5 after calculation.
 frequency 1k hz, V1=1.8V, V2=0.6V .
 W=134u(CMOSP),W=1.08u(CMOSN)
 
-# result
+# Dc analysis
 ![image](https://github.com/user-attachments/assets/e41dae36-1f96-4bfd-80f8-890a1efd3fb3)
 DC Operating Point =( 0.9V ,27uA)
 # Transient Analysis:
