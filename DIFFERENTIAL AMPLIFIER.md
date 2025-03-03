@@ -1,7 +1,7 @@
 # AIM :
 Design and Analyze the MOS differential amplifier circuitfor the following specifications
 ## Components Required
-N-MOSFET(nmos4),Resistor(1.9k,0.4k),Power Supply(DC:2.2V, 1.2V),Current source(1,mA),Signal generator
+N-MOSFET(nmos4),Resistor(1.833k,0.416k),Power Supply(DC:2.5V, 1.3V),Current source(1.2,mA),Signal generator
 ## Theory :
 A differential amplifier is an electronic circuit that amplifies the difference between two input signals while rejecting any signals that are common to both inputs (common-mode signals). It is a fundamental building block in analog circuits, commonly used in instrumentation, operational amplifiers (op-amps), and signal processing applications.
 
@@ -38,7 +38,7 @@ Here Ad is differential gain
 
 1.Open the LTspice software, merge the library file for getting accurate values of NMOS.
 
-2.Select the components which are needed to us like for circuit 1 we need 1.9k & 0.4k resistor,2 CMOSN, three voltage sources(1.2v,2.2v),ground from the components list.
+2.Select the components which are needed to us like for circuit 1 we need 1.833k & 0.4166k resistor,2 CMOSN, three voltage sources(1.3v,2.5v),ground from the components list.
 
 3.Place them all components in necessory way which is helpfull, connect all the components as in given circuit .
 
@@ -48,4 +48,9 @@ Here Ad is differential gain
 
 6.After that lets take Transient analysis of 5m cycle so in input and output waveforms in 5 complete cycle, so here we get and seperate and combined waveforms of input and output.
 
-7.For AC analysis, we should do some changes like converting DC SOURCE to sinosoidal waveform (1.2,50m,1T),after that select the AC simulation from the given options of simulation after giving values of (Decade,20,01,1T). So we will get a output after placing node to output waveform
+7.For AC analysis, we should do some changes like converting DC SOURCE to sinosoidal waveform (1.3,50m,1T),after that select the AC simulation from the given options of simulation after giving values of (Decade,20,0.1,1T). So we will get a output after placing node to output waveform
+# Circuit 1
+![1 1st](https://github.com/user-attachments/assets/0d41fe3d-f04b-4132-8939-f6d07be944f3)
+# Dc analysis
+![1 1st](https://github.com/user-attachments/assets/af15cea4-e744-4e0e-b334-d11a6da4cc74)
+
