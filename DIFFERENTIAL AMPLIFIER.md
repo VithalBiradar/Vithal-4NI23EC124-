@@ -60,6 +60,10 @@ Id2 = 0.6mA
 Vocm = 1.4 V
 
 vocm1 = 1.4 V
+# Transient Analysis :
+Input and Output combined waveforms :
+![transient1](https://github.com/user-attachments/assets/6c58f6f7-872c-49ee-97b7-cb93177171f6)
+
 
 
 
