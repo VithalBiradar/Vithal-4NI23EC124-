@@ -1,11 +1,11 @@
-AIM :
+# AIM :
 Design and Analyze the MOS differential amplifier circuitfor the following specifications
 ## Components Required
 N-MOSFET(nmos4),Resistor(1.9k,0.4k),Power Supply(DC:2.2V, 1.2V),Current source(1,mA),Signal generator
-Theory :
+## Theory :
 A differential amplifier is an electronic circuit that amplifies the difference between two input signals while rejecting any signals that are common to both inputs (common-mode signals). It is a fundamental building block in analog circuits, commonly used in instrumentation, operational amplifiers (op-amps), and signal processing applications.
 
-Basic Circuit Configuration :
+## Basic Circuit Configuration :
 A basic differential amplifier consists of :
 
 1.Two inputs V1 and V2
@@ -22,7 +22,7 @@ Common modes siganl : (V1 + V2)/2
 2.Diferential mode :
 The difference between two inputs : V1 - V2
 
-Working principle :
+# Working principle :
 
 The output voltage is proportional to the difference between the two input voltages.
 
