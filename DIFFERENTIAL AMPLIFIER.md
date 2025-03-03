@@ -53,6 +53,13 @@ Here Ad is differential gain
 ![1 1st](https://github.com/user-attachments/assets/0d41fe3d-f04b-4132-8939-f6d07be944f3)
 # Dc analysis
 ![2 dc ouptu](https://github.com/user-attachments/assets/40b661a0-8654-46fd-9413-8aa98d7051cb)
+Id1 = 0.6mA
+
+Id2 = 0.6mA
+
+Vocm = 1.4 V
+
+vocm1 = 1.4 V
 
 
 
