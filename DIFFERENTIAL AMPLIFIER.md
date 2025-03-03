@@ -52,5 +52,7 @@ Here Ad is differential gain
 # Circuit 1
 ![1 1st](https://github.com/user-attachments/assets/0d41fe3d-f04b-4132-8939-f6d07be944f3)
 # Dc analysis
-![1 1st](https://github.com/user-attachments/assets/af15cea4-e744-4e0e-b334-d11a6da4cc74)
+![2 dc ouptu](https://github.com/user-attachments/assets/40b661a0-8654-46fd-9413-8aa98d7051cb)
+
+
 
