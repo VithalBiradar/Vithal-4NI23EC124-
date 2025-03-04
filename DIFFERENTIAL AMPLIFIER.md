@@ -108,8 +108,35 @@ Id2 = 0.6mA
 Vocm = 1.4 V
 
 vocm1 = 1.4 V
-Transient Anaysis :
-input wave form
+# Transient Anaysis :
+## input waveform
+![image](https://github.com/user-attachments/assets/7d1d5480-488a-47d3-b6c7-303da78d4253)
+## output waveform
+![image](https://github.com/user-attachments/assets/cbca3515-c50c-468b-a849-d33a9a4141e8)
+## combined input and output waveform
+![2nd transient](https://github.com/user-attachments/assets/6b786922-52f5-46d9-b94e-c9cad0c89e73)
+Gain = Vout / Vin
+
+ = (1.35 - 1.25) / (1.65 - 1.15)
+
+ = 0.2 
+Gain in dB = 20 * log (0.2)
+
+       = -13.97 dB
+# Ac analysis
+![3 ac analysis](https://github.com/user-attachments/assets/54d1d840-f379-4a04-bd99-b799ee130736)
+# Inference
+1.Differential Gain – The amplifier provides significant gain for differential signals, confirming its suitability for applications requiring precise signal amplification.
+
+2.Common-Mode Rejection – The circuit successfully suppresses common-mode signals, making it ideal for noise-resistant applications.
+
+3.Biasing and Stability – Proper biasing ensures stable operation, and any variations in resistor values or transistor parameters influence the gain.
+
+4.Practical Limitations – Small deviations from theoretical values were observed due to component tolerances, non-ideal transistor characteristics, and power supply variations.
+
+
+
+
 
 
 
