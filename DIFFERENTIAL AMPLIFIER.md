@@ -63,6 +63,15 @@ vocm1 = 1.4 V
 # Transient Analysis :
 Input and Output combined waveforms :
 ![transient1](https://github.com/user-attachments/assets/6c58f6f7-872c-49ee-97b7-cb93177171f6)
+Gain = Vout / Vin
+
+ = (1.35 - 1.25) / (1.65 - 1.15)
+
+ = 0.2 
+Gain in dB = 20 * log (0.2)
+
+       = -13.97 dB
+       
 
 
 
