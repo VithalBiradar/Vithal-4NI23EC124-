@@ -71,6 +71,51 @@ Gain = Vout / Vin
 Gain in dB = 20 * log (0.2)
 
        = -13.97 dB
+ # AC Analysis :
+ ![ac analysis 1st](https://github.com/user-attachments/assets/702492f6-4d92-49b3-9ce8-d9e82547e90f)
+# Circuit 2 
+![2 dc out](https://github.com/user-attachments/assets/7c267307-f6a2-4357-b77c-343c0164e133)
+# DC Analysis :
+![2nd dc](https://github.com/user-attachments/assets/a01855a0-de89-44af-9bf3-a3a8cc70af06)
+Id1 = 0.6mA
+
+Id2 = 0.6mA
+
+Vocm = 1.4 V
+
+vocm1 = 1.4 V
+# Transient Analysis :
+input output combined waveform
+![2nd transient](https://github.com/user-attachments/assets/6b786922-52f5-46d9-b94e-c9cad0c89e73)
+Gain = Vout / Vin
+
+ = (1.35 - 1.25) / (1.65 - 1.15)
+
+ = 0.2 
+Gain in dB = 20 * log (0.2)
+
+       = -13.97 dB
+# AC Analysis  
+![2nd ac](https://github.com/user-attachments/assets/f75f568f-cf0e-45fd-8d94-7349ce514b02)
+# Circuit 3 :
+![3 dc](https://github.com/user-attachments/assets/68a4b5b5-6886-4b93-8c80-5847a0e38090)
+dc analysis
+![ci3 dc out](https://github.com/user-attachments/assets/bbd94904-d67e-48cd-9cba-bc05a0d42a9e)
+Id1 = 0.6mA
+
+Id2 = 0.6mA
+
+Vocm = 1.4 V
+
+vocm1 = 1.4 V
+Transient Anaysis :
+input wave form
+
+
+
+
+
+
        
 
 
