@@ -26,8 +26,20 @@ In General, 1:1 using ratio , then Iref = 0.277mA. For 1:2 using ration, then Ir
 ![image](https://github.com/user-attachments/assets/64278fa6-b936-4ef6-962c-a60dace7137c)
 ![image](https://github.com/user-attachments/assets/0a18c8ed-ebf8-430f-958f-ec43f7966a3a)
 #### C. Frequency Response :
-
 ![image](https://github.com/user-attachments/assets/e0299c62-8639-4544-a5c9-a910892f6db6)
+![image](https://github.com/user-attachments/assets/30d5098e-ebba-4ece-a5c2-6a7cb8e93296)
+Bandwidth is 207.218Mhz.(30dB-3dB= 27dB)
+## (W,L) for CMOSP is 10u,180nm and for CMOSN is 31.23u,180n.
+#### CIRCUIT 2: 1:2 using 180nm
+A. DC Analysis:
+![image](https://github.com/user-attachments/assets/fbd321ff-db94-4f90-8a81-105a9b456e88)
+![image](https://github.com/user-attachments/assets/8b43e534-3197-41fe-89a1-b622a4f1c4ed)
+
+
+
+
+
+
 
 
 
