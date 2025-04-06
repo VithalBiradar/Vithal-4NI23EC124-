@@ -21,6 +21,16 @@ In General, 1:1 using ratio , then Iref = 0.277mA. For 1:2 using ration, then Ir
 ### CIRCUIT 1: 1:1 using 180nm
 #### A. DC Analysis:
 ![image](https://github.com/user-attachments/assets/06d80f5d-60a6-4699-ba5b-56daf7f175bf)
+![image](https://github.com/user-attachments/assets/28d57d0e-f718-4d79-99f2-906e9ebd2293)
+#### B. Transient Analysis :
+![image](https://github.com/user-attachments/assets/64278fa6-b936-4ef6-962c-a60dace7137c)
+![image](https://github.com/user-attachments/assets/0a18c8ed-ebf8-430f-958f-ec43f7966a3a)
+#### C. Frequency Response :
+
+![image](https://github.com/user-attachments/assets/e0299c62-8639-4544-a5c9-a910892f6db6)
+
+
+
 
 
 
