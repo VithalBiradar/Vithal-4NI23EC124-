@@ -55,7 +55,34 @@ Bandwidth is 26.778Mhz.(39dB-3dB = 36dB ).
 Bandwidth is 37.249Mhz.(36dB-3dB= 33dB ).
 # (W,L) for CMOSP is 10u,1um and for CMOSN is 93.35u,1u.
 CIRCUIT 6: 1:2 using 1um
+
 A. DC Analysis :
+![image](https://github.com/user-attachments/assets/37a6dc24-967a-4455-96b1-1ccf59902f0f)
+![image](https://github.com/user-attachments/assets/3a68d713-0046-487e-a4b9-d40f5cefa570)
+B. Transient Analysis :
+![image](https://github.com/user-attachments/assets/61020d4d-9581-4434-b093-412e9e01b7b0)
+![image](https://github.com/user-attachments/assets/d96f2f5b-b329-42e5-9322-22e20f4989bf)
+C. Frequency Response :
+![image](https://github.com/user-attachments/assets/9089f899-0d73-444c-8204-70391507bfe4)
+![image](https://github.com/user-attachments/assets/d7128c0d-3532-41fc-94da-b6800e35f2e6)
+Bandwidth is 18.321Mhz.(39dB-3dB = 36dB ).
+(W.L) for CMOSP1 is 10u,1u & (W,L) for CMOSP2 is 20u,1u & (W,L) for CMOSN is 121.51u,1u.
+
+ DIFFERENTIAL AMPLIFIERS
+ CIRCUIT :
+ ![image](https://github.com/user-attachments/assets/fe7232c1-d672-4a64-8dd6-13291b2244c0)
+DC OPERATING POINT :
+
+
+
+
+
+
+
+
+
+
+
 
 
 
