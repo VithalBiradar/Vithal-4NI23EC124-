@@ -34,6 +34,40 @@ Bandwidth is 207.218Mhz.(30dB-3dB= 27dB)
 A. DC Analysis:
 ![image](https://github.com/user-attachments/assets/fbd321ff-db94-4f90-8a81-105a9b456e88)
 ![image](https://github.com/user-attachments/assets/8b43e534-3197-41fe-89a1-b622a4f1c4ed)
+### B. Transient Analysis :
+![image](https://github.com/user-attachments/assets/cd3a468e-435c-428b-9176-f2bbd999e735)
+![image](https://github.com/user-attachments/assets/564568a9-073a-43cc-8177-e66507da899e)
+### C. Frequency Response :
+![image](https://github.com/user-attachments/assets/5cdb6500-6190-468d-9712-edb70a6a5bd2)
+![image](https://github.com/user-attachments/assets/6f22754a-c29b-490e-a21f-f584a1434ece)
+Bandwidth is 26.778Mhz.(39dB-3dB = 36dB ).
+(W.L) for CMOSP1 is 10u,500n & (W,L) for CMOSP2 is 20u,500n & (W,L) for CMOSN is 85.243u,500n.
+### CIRCUIT 5: 1:1 using 1um
+#### A. DC Analysis :
+![image](https://github.com/user-attachments/assets/be914d34-c06c-42ce-90d0-cb3ec8799785)
+![image](https://github.com/user-attachments/assets/a0d395b6-a435-465b-a62f-b3cb7c956816)
+#### B. Transient Analysis :
+![image](https://github.com/user-attachments/assets/8a128444-90a2-4c35-a72a-fc3150d12d7c)
+![image](https://github.com/user-attachments/assets/69f31f49-b9d0-4d04-990d-6f4e89c1bf4d)
+### C. Frequency Response :
+![image](https://github.com/user-attachments/assets/c60788ad-d81e-445c-9631-0a218d69640f)
+![image](https://github.com/user-attachments/assets/e4201c6c-65aa-4a3a-a5e9-d661e2d34f17)
+Bandwidth is 37.249Mhz.(36dB-3dB= 33dB ).
+# (W,L) for CMOSP is 10u,1um and for CMOSN is 93.35u,1u.
+CIRCUIT 6: 1:2 using 1um
+A. DC Analysis :
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
